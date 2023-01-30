@@ -1,0 +1,1 @@
+This firmware viersion allows the ability to change the pulse per quarter note value for midi clock.
