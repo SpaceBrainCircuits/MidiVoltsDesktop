@@ -1,0 +1,2 @@
+This firmware version fixes issues when playing legato on multiple channels.
+All notes off CC command added.
