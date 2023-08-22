@@ -11,8 +11,3 @@ Ch0 = 1
 Ch1 = 2
 Ch2 = 3
 Ch3 = 4
-
-This firmware version fixes issues when playing legato on multiple channels.
-All notes off CC command added.
-Fixed MMC transpose bug.
-Added Ppqn settings.
