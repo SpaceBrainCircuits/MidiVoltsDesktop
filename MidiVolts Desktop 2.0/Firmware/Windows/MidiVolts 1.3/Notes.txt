@@ -1,0 +1,1 @@
+This firmware version fixes a bug when using all notes off CC command, and stuck notes when using real time messages.
