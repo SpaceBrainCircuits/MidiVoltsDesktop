@@ -1,0 +1,15 @@
+// PLEASE CHOOSE MODE
+// 1 VOICE MONOPHONIC ON V0(Ch0) WITH VELOCITY ON V1, AFTERTOUCH ON V2, AND CC1 (MOD WHEEL) ON V3: .Mono
+// 2 VOICE DUOPHONIC ON V0(Ch0), V1(Ch1) WITH VELOCITY ON V2(Ch0) AND V3(Ch1) RESPECTIVELY: ........Duo
+// 3 VOICE POLYPHONIC ON V0(Ch0), V1(Ch1), V2(Ch2) WITH CC1 (MOD WHEEL) ON V3(Ch0): ................Poly3
+// 4 VOICE POLYPHONIC ON V0(Ch0), V1(Ch1), V2(Ch2), V3(Ch3): .......................................Poly4
+// 4 VOICE UNISON ON V0(Ch0), V1(Ch0), V2(Ch0), V3(Ch0): ...........................................Unison
+// 1 VOICE MONOPHONIC ON V0(Ch0) WITH CC1 ON V1(Ch0), CC2 ON V2(Ch0), CC3 ON V3(Ch0): ..............CC
+
+DEFAULT:
+Ch0 = 1
+Ch1 = 2
+Ch2 = 3
+Ch3 = 4
+
+This firmware version adds the ability to control V0 with CC messages when on CC mode. The CC channel is assignable over sysex messages.

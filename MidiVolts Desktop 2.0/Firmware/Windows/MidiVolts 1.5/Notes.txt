@@ -1,0 +1,1 @@
+This firmware version adds the ability to control V0 with CC messages when on CC mode. The CC channel is assignable over sysex messages.
