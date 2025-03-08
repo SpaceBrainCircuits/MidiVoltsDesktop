@@ -1,0 +1,3 @@
+This firmware version adds the ability to enabled round robin mode. After firmware upgrade, the user must enable round robin by sending the respective round robin sysex message.
+
+Keep in mind, this mode is useful for full polyphonic setups. For example, if the MidiVolts Desktop is individually controlling two or more monosynths, round robin will allow notes to trail off while the next note is played. For paraphonic setups, round robin set to off is generally better.
