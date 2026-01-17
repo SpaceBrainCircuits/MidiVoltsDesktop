@@ -1,0 +1,13 @@
+This firmware version adds the Voice Allocation modes. Available modes are Normal (Default), Round Robin, and Pitch Order.
+
+Normal mode is the standard mode developed for all versions of the Midivolts. This is default.
+
+Round Robin mode is useful for full polyphonic setups. For example, if the MidiVolts Desktop is individually controlling two or more monosynths, round robin will allow notes to trail off while the next note is played. For paraphonic setups, Normal or Pitch Order is generally better.
+
+Pitch Order mode is used to retain oscillator position respective to the notes being held. For instance, if Osc 1 is set to a triangle wave, the lowest note will always be assigned to this oscillator, creating a consistent sound across multiple voicings.
+
+Additionally, this firmware allows the ability to set Voice Offset. These tell the Midivolts to ignore the first set of notes being played. For example, if set to 4, the first 4 notes are ignored, and only after the first 4 notes are held down, will the MidiVolts begin to respond. This allows the ability to expand voices on synthesizers such as the Moog Matriarch.
+
+Gate Hold on Release mode changes the behavior of the Note Off commands to match the key logic of the Moog Matriarch.
+
+
