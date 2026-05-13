@@ -1,0 +1,9 @@
+Added Song Pointer Position logic to handle Midi Starts mid song/ bar.
+Added DiscardStolenNotes to assist with chaining multiple Units together. Up to 4 MidiVolts may be chained together, allowing up to 16 Pitch CVs now possible. When DiscardStolenNotes is on, this mode will not restore a stolen note when actively pressed note is released.
+
+If you want to chain 2 or more MidiVolts Desktop/ Modular units together.
+
+MidiVolts A: DiscardStolenNotes = On
+MidiVolts B: VoiceOffset = Offset_4
+
+
